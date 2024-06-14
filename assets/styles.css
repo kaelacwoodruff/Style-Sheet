@@ -1,0 +1,226 @@
+@font-face {
+  font-family: Moniqa;
+  src: url(Moniqa-Display.otf);
+}
+
+@font-face {
+    font-family: Luthon-Southard;
+    src: url(Luthon\ Southard\ Script.otf);
+}
+
+@font-face {
+    font-family: Luthon-Southard-Serif;
+    src: url(Luthon\ Southard\ Serif.otf);
+}
+
+/*Main*/
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    #bdaaa0 50%,
+    #ae8777 75%,
+    #ae7b6e 85%,
+    #7d515a
+  );
+  color: #262920;
+  background-repeat: no-repeat;
+  /* height: fill; */
+}
+
+/*Header*/
+.header {
+  background-image: url("header.jpg");
+  background-repeat: no-repeat;
+  color: #e8cbb9;
+  margin: 5px;
+  height: 120px;
+  text-align: center;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: Moniqa;
+    margin: 5px;
+    height: 100px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+h6 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Luthon-Southard;
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: Luthon-Southard-Serif;
+  font-weight: 600;
+}
+
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*Fonts*/
+.fonts {
+  border: 2px solid #262920;
+  text-align: center;
+  margin: 0 auto;
+  width: 93vw;
+  
+}
+
+.font {
+  display: inline-block;
+  margin: 10px 5px;
+  width: 325px;
+  height: 325px;
+  border: 3px solid #262920;
+  line-height: 1;
+  text-align: left;
+  padding: 5px;
+  font-size: 25px
+}
+
+.font-title {
+  margin-top: 2px;
+  /* margin-bottom: 15px; */
+}
+
+.Aa {
+  font-size: 45px;
+  margin: 5px 0px;
+}
+
+
+.serif {
+font-family: Luthon-Southard-Serif;
+}
+
+.sans-serif {
+font-family: Moniqa;
+}
+
+.script {
+font-family: Luthon-Southard;
+font-size: 25px;
+font-weight: 600;
+}
+
+.abc {
+    margin-bottom: 10px;
+}
+
+
+/*Colors*/
+
+.colors {
+  border: 2px solid #262920;
+  padding: 0px;
+  font-family: Luthon-Southard-Serif;
+  width: 93vw;
+  margin: 10px auto;
+}
+.colors-display {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 0 auto;
+
+}
+.colors-box {
+  border: 1px solid #262920;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1;
+  font-weight: 700;
+
+}
+
+.colors-text {
+    margin-top: 35px;
+}
+.rose-gold {
+  background-color: #ae8777;
+  line-height: 2;
+  
+}
+
+.dusty-rose {
+  background-color: #7d515a;
+  line-height: 2;
+}
+
+.summer-white {
+  background-color: #fffdf5;
+  line-height: 2;
+}
+
+.chocolate-chip {
+  background-color: #262920;
+  line-height: 2;
+  color: #fffdf5;
+}
+
+.pale-violet {
+  background-color: #60555d;
+  line-height: 2;
+}
+
+.champaign {
+  background-color: #bdaaa0;
+  line-height: 2;
+}
+
+.pink {
+  background-color: #e8cbb9;
+  line-height: 2;
+}
+
+/*Footer*/
+footer {
+  text-align: center;
+  bottom: 5px;
+}
+/* Text Styles */
+
+.text-styles {
+    border: 2px solid #262920;
+    text-align: left;
+    color: #262920;
+    font-family: Luthon-Southard-Serif;
+    width: 93vw;
+    margin: 10px auto;
+    padding-left: 5px;
+
+}
+
+.main-heading {
+    margin-bottom: 5px;
+}
+
+.subheading {
+    margin: 0;
+    text-align: left;
+}
+
+.script-style {
+    text-align: left;
+    margin: 0;
+    
+}
+
+ul, p {
+    margin: 5px;
+}
